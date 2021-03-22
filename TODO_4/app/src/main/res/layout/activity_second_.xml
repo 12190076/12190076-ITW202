@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".Second_Activity">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -13,7 +12,32 @@
         android:paddingRight="10dp"
         tools:layout_editor_absoluteX="-125dp"
         tools:layout_editor_absoluteY="0dp">
+        <TextView
+            android:id="@+id/text_header"
+            android:background="@color/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message Received"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.439" />
 
+        <TextView
+            android:id="@+id/text_message"
+            android:layout_width="352dp"
+            android:layout_height="79dp"
+            android:layout_below="@+id/text_header"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="23dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
         <Button
             android:id="@+id/button"
             android:layout_width="108dp"
@@ -25,8 +49,8 @@
             android:layout_marginEnd="12dp"
             android:layout_marginRight="12dp"
             android:layout_marginBottom="39dp"
-            android:onClick="send"
-            android:text="SEND"/>
+            android:text="REPLY"
+            android:onClick="returnReply"/>
 
         <EditText
             android:id="@+id/editTextText"
@@ -41,35 +65,6 @@
             android:layout_marginBottom="34dp"
             android:inputType="textPersonName"
             android:hint="Enter Your Text" />
-
-        <TextView
-            android:id="@+id/text_header"
-            android:layout_width="160dp"
-            android:layout_height="46dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="16dp"
-            android:background="@color/green"
-            android:text="Reply Received"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textStyle="bold"
-            android:visibility="invisible"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.439" />
-
-        <TextView
-            android:id="@+id/text_m"
-            android:layout_width="352dp"
-            android:layout_height="79dp"
-            android:visibility="invisible"
-            android:layout_below="@+id/text_header"
-            android:layout_marginStart="@dimen/activity_horizontal_margin"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginTop="23dp"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
 
     </RelativeLayout>
 
