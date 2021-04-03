@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
         mMessageEditText = (EditText) findViewById(R.id.editTextText);
         mReplyHeadTextView = (TextView) findViewById(R.id.text_header);
         mReplyTextView = (TextView) findViewById(R.id.text_m);
-
-
         mMessageEditText = (EditText) findViewById(R.id.editTextText);
+
+
     }
 
     public void send(View view) {

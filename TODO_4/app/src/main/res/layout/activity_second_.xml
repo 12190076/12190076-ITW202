@@ -64,7 +64,8 @@
             android:layout_marginRight="7dp"
             android:layout_marginBottom="34dp"
             android:inputType="textPersonName"
-            android:hint="Enter Your Text" />
+            android:hint="Enter to Reply"
+            android:textAlignment="center"/>
 
     </RelativeLayout>
 
