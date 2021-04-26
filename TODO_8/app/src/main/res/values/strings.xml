@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TODO_8</string>
+
+    <string name="open_website">Open Website</string>
+
+    <string name="open_location">Open Location</string>
+
+    <string name="button_share">Share This Text</string>
+    <string name="photo">photo</string>
+
+
+</resources>
