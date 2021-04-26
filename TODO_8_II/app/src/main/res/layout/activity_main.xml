@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="23dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/website_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Uri"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/open_website_button"
+        android:layout_width="148dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:onClick="openwebsite"
+        android:text="@string/open_website"
+        app:layout_constraintTop_toBottomOf="@+id/website_edittext"
+        tools:layout_editor_absoluteX="99dp" />
+
+    <!--    <EditText-->
+<!--        android:id="@+id/location_edittext"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter Location"/>-->
+<!--    <Button-->
+<!--        android:id="@+id/open_location_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/open_location"-->
+<!--        android:layout_marginBottom="24dp"-->
+<!--        android:onClick="openlocation"/>-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/share_edittext"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Type the message"/>-->
+<!--    <Button-->
+<!--        android:id="@+id/share_text_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:text="Share THis Text"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="24dp"-->
+<!--        android:onClick="shareText"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
