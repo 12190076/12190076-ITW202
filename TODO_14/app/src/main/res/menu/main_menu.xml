@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/teal_200">
+    <item
+        android:id="@+id/action_orfer"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="Order"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/action_Status"
+        android:title="status">
+    </item>
+    <item
+        android:id="@+id/action_favourite"
+        android:title="favourite">
+    </item>
+    <item
+    android:id="@+id/action_contact"
+    android:title="Contact">
+</item>
+
+</menu>

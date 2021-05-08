@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TODO_14</string>
+    <string name="donut_message">You ordered a donut.</string>
+    <string name="ice_cream_message">You ordered an ice cream sandwich.</string>
+    <string name="froyo_message">You ordered a FroYo.</string>
+    <string name="choose_a_delivery_method">Choose a delivery method</string>
+    <string name="same_day">Same day messenger service</string>
+    <string name="next_day">Next day ground delivery</string>
+    <string name="pick_up">Pick up</string>
+    <string-array name="labels_arrray">
+        <item>Home</item>
+        <item>Works</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+</resources>
