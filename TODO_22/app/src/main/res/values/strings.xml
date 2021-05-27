@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TODO_22</string>
+    <string name="header">Enter a book Name to find out who wrote the book</string>
+</resources>
